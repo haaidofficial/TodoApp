@@ -1,0 +1,77 @@
+.todolist tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+.todolist td,
+.todolist th{
+    border-collapse: collapse;
+    width: 150px;
+}
+
+
+
+.add-todo-modal-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f3f3f9e
+}
+
+
+
+.add-todo-modal input {
+    height: 40px;
+    width: 400px;
+}
+
+.add-todo-modal select {
+    height: 40px;
+    width: 400px;
+}
+
+
+.add-todo-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-task-btn{
+    width: 250px;
+    height: 40px;
+    background-color: lightblue;
+}
+
+
+.todo-table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pagination-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
